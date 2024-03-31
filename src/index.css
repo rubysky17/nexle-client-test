@@ -1,0 +1,18 @@
+body {
+  --bs-body-font-family: "Montserrat", sans-serif;
+  margin: 0; 
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-secondary {
+  padding: "10px auto";
+  background-color: "#7367F0"!important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

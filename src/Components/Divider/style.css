@@ -1,0 +1,16 @@
+.header__center {
+  font-size: 14px;
+  color: #6E6B7B;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1rem;
+  align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #E9EAEC;
+}
