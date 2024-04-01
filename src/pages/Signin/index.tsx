@@ -36,7 +36,7 @@ const schema = yup
         password: yup.string()
             .required("The password is required")
             .min(6, "The password must be between 6-18 characters")
-            .max(8, "The password must be between 6-18 characters")
+            .max(18, "The password must be between 6-18 characters")
             .matches(/^(?=.*[0-9])(?=.*[!@#$%^&*()-_+=])[a-zA-Z0-9!@#$%^&*()-_+=]{8,}$/, "The password must contain at least one digit, one special character, and one letter"),
     })
     .required()
